@@ -1,0 +1,26 @@
+﻿# Credenciales y configuraciones privadas
+.env
+.env.*
+!.env.example
+
+# Entorno virtual
+venv/
+.venv/
+env/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+
+# Configuración local Flask
+instance/
+.flaskenv
+
+# Archivos temporales de Windows
+Thumbs.db
+.DS_Store
